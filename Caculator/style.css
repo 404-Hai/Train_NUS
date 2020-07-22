@@ -1,0 +1,16 @@
+body {
+    margin: 20px;
+}
+
+.input {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+@media screen and (max-width: 800px) {
+    .row {
+        width: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}

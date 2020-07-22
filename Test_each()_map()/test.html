@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+    <style>
+        /*.cdf,
+        .cdf~p {
+            color: red;
+        }*/
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="cdf">foo</div>
+        <p class="abc">bar</p>
+        <p>dffsfs</p>
+    </div>
+    <p>NHHhH</p>
+    <script>
+        /*$("li").each(function(index) {
+                            console.log(index + ": " + $(this).text());
+                            return false;
+                            console.log("SFDFDsd");
+                        });*/
+        console.log($.map({
+            width: 10,
+            height: 15,
+            length: 20
+        }, function(n) {
+            return n + 4;
+        }));
+
+        //var a = $(".cdf");
+        //a.siblings().css("color", "red")
+    </script>
+</body>
+
+</html>

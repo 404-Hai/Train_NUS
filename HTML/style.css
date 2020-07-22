@@ -1,0 +1,9 @@
+body {
+    background-image: url(background.jpg);
+    background-size: 100%;
+}
+
+div {
+    margin: 10%;
+    font-size: 30px;
+}

@@ -1,0 +1,22 @@
+body {
+    background-color;
+}
+
+.div1 {
+    background-color: blue;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.div2 {
+    background-color: floralwhite;
+}
+
+.left {
+    left: 60%;
+}
+
+.right {
+    right: 40%;
+}
